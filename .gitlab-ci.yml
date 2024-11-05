@@ -7,4 +7,4 @@ deploy_to_cloudflare_pages:
     CLOUDFLARE_PROJECT_NAME: "phoenix-legion-website"
   script:
     - cd source && npm install && npm run build
-    - npx wrangler pages deploy source/out --project-name $CLOUDFLARE_PROJECT_NAME --branch $CI_COMMIT_REF_NAME
+    - npx wrangler pages deploy out/ --project-name $CLOUDFLARE_PROJECT_NAME --branch $CI_COMMIT_REF_NAME
