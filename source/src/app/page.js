@@ -18,7 +18,7 @@ export default () => {
         </p>
         <p>
           If that sounds fun, <u>we want you</u>! Join our Discord, grab the
-          "Phoenix Legion" role, and introduce yourself in the "newcomers"
+          "Phoenix Legion" role, and introduce yourself in the "the-mess"
           channel to get started. We're looking forward to fighting alongside
           you.
         </p>
